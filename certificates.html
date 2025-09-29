@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Certificates — Ewe Yi Keat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ewe Yi Keat</h1>
+        <p>Degree in Finance | Master’s in IT Management</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="certificates.html" aria-current="page">Certificates</a>
+    </nav>
+
+    <section id="certificates" class="section">
+        <h2>Certificates</h2>
+
+        <!-- 📘 Academic Certificates -->
+        <h3>Academic Certificates</h3>
+        <div class="cert-grid">
+            <figure class="cert-card" tabindex="0" data-img="Photos/EWE YI KEAT_MASTER PRE-TRANSCRIPT.jpg"
+                data-title="Master’s in IT Management (UNIMAS)">
+                <img src="Photos/EWE YI KEAT_MASTER PRE-TRANSCRIPT.jpg" alt="Master’s Degree certificate thumbnail">
+                <figcaption>
+                    <strong>Master’s in IT Management</strong>
+                    <small>UNIMAS</small>
+                </figcaption>
+            </figure>
+
+            <figure class="cert-card" tabindex="0" data-img="Photos/EWE YI KEAT_DEGREE CERTIFICATE.jpg"
+                data-title="Degree in Finance (UNIMAS)">
+                <img src="Photos/EWE YI KEAT_DEGREE CERTIFICATE.jpg" alt="Degree in Finance certificate thumbnail">
+                <figcaption>
+                    <strong>Degree in Finance</strong>
+                    <small>UNIMAS</small>
+                </figcaption>
+            </figure>
+
+            <figure class="cert-card" tabindex="0" data-img="Photos/STPM.jpg" data-title="STPM Certificate">
+                <img src="Photos/STPM.jpg" alt="STPM certificate thumbnail">
+                <figcaption>
+                    <strong>STPM</strong>
+                    <small>SMK Baru, Miri</small>
+                </figcaption>
+            </figure>
+
+            <figure class="cert-card" tabindex="0" data-img="Photos/SPM.jpg" data-title="SPM Certificate">
+                <img src="Photos/SPM.jpg" alt="SPM certificate thumbnail">
+                <figcaption>
+                    <strong>SPM</strong>
+                    <small>SMK Lopeng Tengah, Miri</small>
+                </figcaption>
+            </figure>
+
+            <figure class="cert-card" tabindex="0" data-img="Photos/MUET.jpg" data-title="MUET Certificate">
+                <img src="Photos/MUET.jpg" alt="MUET certificate thumbnail">
+                <figcaption>
+                    <strong>MUET</strong>
+                    <small>SMK Baru, Miri</small>
+                </figcaption>
+            </figure>
+        </div>
+
+        <!-- 🎯 Activity Certificates -->
+        <h3>Activity Certificates</h3>
+        <div class="cert-grid">
+            <figure class="cert-card" tabindex="0" data-img="Photos/Sulam.jpg"
+                data-title="Service Learning Malaysia (Sulam) Certificate">
+                <img src="Photos/Sulam.jpg" alt="Sulam certificate thumbnail">
+                <figcaption>
+                    <strong>Service Learning Malaysia (Sulam)</strong>
+                    <small>UNIMAS</small>
+                </figcaption>
+            </figure>
+
+            <figure class="cert-card" tabindex="0" data-img="Photos/Photoshop Certificate.jpg"
+                data-title="Photoshop Certificate">
+                <img src="Photos/Photoshop Certificate.jpg" alt="Photoshop certificate thumbnail">
+                <figcaption>
+                    <strong>Photoshop</strong>
+                    <small>UNIMAS</small>
+                </figcaption>
+            </figure>
+
+            <figure class="cert-card" tabindex="0" data-img="Photos/TKD.jpg"
+                data-title="Taekwondo Malaysia Certificate">
+                <img src="Photos/TKD.jpg" alt="Taekwondo certificate thumbnail">
+                <figcaption>
+                    <strong>Taekwondo Malaysia</strong>
+                    <small>World Taekwondo Federation</small>
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- Modal / Lightbox -->
+    <div id="certModal" class="modal" aria-hidden="true">
+        <button class="modal-close" aria-label="Close">✕</button>
+        <button class="modal-nav prev" aria-label="Previous">‹</button>
+        <div class="modal-body">
+            <img id="modalImage" src="" alt="">
+            <p id="modalTitle"></p>
+            <a id="downloadBtn" class="btn" download>Download</a>
+        </div>
+        <button class="modal-nav next" aria-label="Next">›</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Ewe Yi Keat</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
